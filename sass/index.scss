@@ -74,8 +74,12 @@ main{
 			box-sizing: border-box;
 			padding: t(40px);
 			border-bottom: t(2px) solid #f2f2f2;
+			color: #323232;
 			.info{
 				p{
+					display: inline-block;
+					height: t(30px);
+					line-height: t(30px);
 					font-size: t(18px);
 					color: #646464;
 					margin-top: t(45px);
