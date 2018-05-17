@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 1.87733rem;
+  background: #148ad2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 0.64rem;
+}
+header i {
+  display: block;
+}
+header .menu {
+  width: 0.896rem;
+  height: 0.72533rem;
+  background: url(../img/Icon-Menu.png);
+  background-size: 100% 100%;
+}
+header .logo {
+  width: 0.85333rem;
+  height: 0.93867rem;
+  background: url(../img/logo.png);
+  background-size: 100% 100%;
+}
+header .settings {
+  width: 1.06667rem;
+  height: 0.85333rem;
+  background: url(../img/Icon-Settings.png);
+  background-size: 100% 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 8.53333rem;
+  background: url(../img/banner.png);
+  background-size: 100%;
+  text-align: center;
+  line-height: 8.10667rem;
+  font-size: 0.81067rem;
+  letter-spacing: 0.10667rem;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  font-size: 0.64rem;
+}
+main ul {
+  width: 100%;
+  height: 100%;
+}
+main ul li {
+  width: 100%;
+  height: 5.44rem;
+  box-sizing: border-box;
+  padding: 0.85333rem;
+  border-bottom: 0.04267rem solid #f2f2f2;
+}
+main ul li .info p {
+  font-size: 0.384rem;
+  color: #646464;
+  margin-top: 0.96rem;
+  float: left;
+  margin-right: 1.06667rem;
+}
+main ul li .info p i {
+  display: inline-block;
+  float: left;
+  margin-right: 0.32rem;
+}
+main ul li .info p .source {
+  width: 0.46933rem;
+  height: 0.68267rem;
+  background: url(../img/Icon-Source.png);
+  background-size: 100%;
+}
+main ul li .info p .time {
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url(../img/Icon-Time.png);
+  background-size: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
