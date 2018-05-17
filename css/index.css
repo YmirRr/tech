@@ -89,7 +89,7 @@ main ul li .info p {
 }
 main ul li .info p i {
   display: inline-block;
-  float: left;
+  /*float:left;*/
   margin-right: 0.32rem;
 }
 main ul li .info p .source {
